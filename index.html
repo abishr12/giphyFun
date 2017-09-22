@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fun with GIFs!</title>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Link to Javascript File -->
+    <script type="text/javascript" src="app.js"></script>
+
+    <!-- Reset CSS -->
+     <link rel="stylesheet" type="text/css" href="css/reset.css">
+
+     <!-- Link to Bootstrap CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+     <style type="text/css">
+    button,
+    div,
+    form,
+    input {
+      margin: 10px;
+    }
+  </style>
+
+  </head>
+  <body>
+    <div class = "container">
+
+      <!-- Text Input for User -->
+      <form id="gif-form">
+      <label for="gif-input">Add a Gif Bro</label>
+      <input type="text" id="gif-input"><br>
+
+      <!-- Button triggers new movie to be added -->
+      <input id="add-gif" type="submit" value="Add a GIF Bro">
+    </form>
+
+
+      <!-- Rendered Buttons will get Dumped Here  -->
+      <div id="buttons-view"></div>
+
+
+    </div>
+
+
+    <!-- Place for gifs -->
+    <div id= "gifs-go-here">
+
+    </div>
+
+
+
+  </body>
+</html>
