@@ -9,6 +9,7 @@ $(document).ready(function() {
     "true love",
     "badass"
   ];
+
   //Create buttons out of the array
   function renderButtons() {
     for (var i = 0; i < starterButtons.length; i++) {
