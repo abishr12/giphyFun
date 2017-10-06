@@ -42,7 +42,7 @@ $(document).ready(function() {
     function buttonClicked() {
       $("button").on("click", function() {
         console.log("button clicked");
-        queryURL = "http://api.giphy.com/v1/gifs/search";
+        queryURL = "https://api.giphy.com/v1/gifs/search";
 
         queryURL +=
           "?" +
